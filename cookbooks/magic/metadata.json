@@ -1,0 +1,42 @@
+{
+  "name": "magic",
+  "description": "Cookbook helpers and other magical things",
+  "long_description": "Cookbook helpers and other magical things",
+  "maintainer": "Sean Clemmer",
+  "maintainer_email": "sczizzo@gmail.com",
+  "license": "ISC",
+  "platforms": {
+
+  },
+  "dependencies": {
+
+  },
+  "recommendations": {
+
+  },
+  "suggestions": {
+
+  },
+  "conflicting": {
+
+  },
+  "providing": {
+
+  },
+  "replacing": {
+
+  },
+  "attributes": {
+
+  },
+  "groupings": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "1.5.0",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false
+}

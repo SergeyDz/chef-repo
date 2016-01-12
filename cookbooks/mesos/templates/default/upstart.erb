@@ -1,0 +1,6 @@
+description "Upstart job for <%= @name %>"
+
+start on stopped rc RUNLEVEL=[2345]
+respawn
+
+exec <%= @wrapper %>
