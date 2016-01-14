@@ -1,0 +1,3 @@
+<% node['apache_zookeeper']['zoo.cfg'].each do |key, value| -%>
+<%= key %>=<%= value %>
+<% end -%>
