@@ -1,5 +1,5 @@
-Generated at 2016-01-11 22:26:08 +0000
-Chef::Exceptions::RecipeNotFound: could not find recipe file /home/vagrant/knife
+Generated at 2016-01-13 21:27:33 +0000
+Chef::Exceptions::RecipeNotFound: could not find recipe file /home/vagrant/cd
 /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.5.1/lib/chef/run_context.rb:308:in `load_recipe_file'
 /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.5.1/lib/chef/policy_builder/expand_node_object.rb:94:in `block in setup_run_context'
 /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.5.1/lib/chef/policy_builder/expand_node_object.rb:93:in `each'
