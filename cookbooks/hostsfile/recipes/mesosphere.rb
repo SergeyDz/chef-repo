@@ -32,8 +32,3 @@ hostsfile_entry '10.1.0.224' do
   hostname  'sdzyuban-vm-centos'
   action    :create_if_missing
 end
-
-hostsfile_entry '10.1.1.27' do
-  hostname 'sdzyuban-vm-2012'
-  action :create_if_missing
-end
