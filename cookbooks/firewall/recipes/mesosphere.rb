@@ -16,3 +16,8 @@ firewall_rule 'mesos' do
 	command :allow
 end
 
+firewall_rule 'ssh' do
+    port 22 
+    protocol :tcp
+    command :allow
+end
