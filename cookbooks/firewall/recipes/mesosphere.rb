@@ -11,13 +11,16 @@ firewall_rule 'zk' do
 end
 
 firewall_rule 'mesos' do
-	port 5050
+	port [5050, 5051]
 	protocol :tcp
 	command :allow
 end
+
 
 firewall_rule 'ssh' do
     port 22 
     protocol :tcp
     command :allow
 end
+
+
