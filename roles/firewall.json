@@ -1,11 +1,12 @@
 {
-   "name": "firewall",
-   "default_attributes": {
-   },
-   "json_class": "Chef::Role",
-   "run_list": ["recipe[firewall]","recipe[firewall::mesosphere]"],
-   "description": "",
-   "chef_type": "role",
-   "override_attributes": {
-   }
+  "name": "firewall",
+  "override_attributes": {
+    "firewall": {
+      "allow_ssh": true
+    }
+  },
+  "run_list": [
+    "recipe[firewall]",
+    "recipe[firewall::mesosphere]"
+  ]
 }

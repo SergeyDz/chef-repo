@@ -1,0 +1,17 @@
+{
+  "name": "mesos-slave",
+  "override_attributes": {
+    "mesos": {
+      "slave": {
+        "flags": {
+          "master": "zk://10.1.0.224:2181,10.1.0.200:2181,10.1.1.49:2181/mesos"
+        }
+      }
+    }
+  },
+  "run_list": [
+    "recipe[mesos]",
+    "recipe[mesos::slave]",
+    "recipe[mesosphere::docker]"
+  ]
+}

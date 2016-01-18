@@ -1,11 +1,8 @@
 {
-   "name": "mesosphere",
-   "default_attributes": {
-   },
-   "json_class": "Chef::Role",
-   "run_list": ["recipe[hostsfile::mesosphere]", "role[firewall]"],
-   "description": "",
-   "chef_type": "role",
-   "override_attributes": {
-   }
+  "name": "mesosphere",
+  "run_list": [
+    "recipe[hostsfile::mesosphere]",
+    "recipe[mesosphere::custom]",
+    "role[firewall]"
+  ]
 }

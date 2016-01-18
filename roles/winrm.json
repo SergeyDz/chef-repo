@@ -1,0 +1,6 @@
+{
+  "name": "winrm",
+  "run_list": [
+    "recipe[hostsfile::mesosphere]"
+  ]
+}

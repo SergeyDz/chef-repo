@@ -1,11 +1,15 @@
 {
-   "name": "marathon",
-   "default_attributes": {
-   },
-   "json_class": "Chef::Role",
-   "run_list": ["recipe[marathon]","recipe[marathon::service]"],
-   "description": "",
-   "chef_type": "role",
-   "override_attributes": {
-   }
+  "name": "marathon",
+  "override_attributes": {
+    "marathon": {
+      "flags": {
+        "master": "zk://10.1.0.224:2181,10.1.0.200:2181,10.1.1.49:2181/mesos",
+        "zk": "zk://10.1.0.224:2181,10.1.0.200:2181,10.1.1.49:2181/marathon"
+      }
+    }
+  },
+  "run_list": [
+    "recipe[marathon]",
+    "recipe[marathon::service]"
+  ]
 }

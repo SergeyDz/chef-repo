@@ -1,0 +1,17 @@
+{
+  "name": "mesos-master",
+  "override_attributes": {
+    "mesos": {
+      "master": {
+        "flags": {
+          "zk": "zk://10.1.0.224:2181,10.1.0.200:2181,10.1.1.49:2181/mesos",
+          "quorum": 1
+        }
+      }
+    }
+  },
+  "run_list": [
+    "recipe[mesos]",
+    "recipe[mesos::master]"
+  ]
+}

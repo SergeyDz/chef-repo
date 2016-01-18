@@ -1,11 +1,19 @@
 {
-   "name": "zookeeper",
-   "default_attributes": {
-   },
-   "json_class": "Chef::Role",
-   "run_list": ["recipe[zookeeper]","recipe[zookeeper::service]"],
-   "description": "",
-   "chef_type": "role",
-   "override_attributes": {
-   }
+  "name": "zookeeper",
+  "override_attributes": {
+    "apache_zookeeper": {
+      "servers": [
+        "10.1.0.200",
+        "10.1.0.224",
+        "10.1.1.49"
+      ]
+    }
+  },
+  "run_list": [
+    "recipe[apache_zookeeper]",
+    "recipe[apache_zookeeper::install]",
+    "recipe[apache_zookeeper::configure]",
+    "recipe[apache_zookeeper::service_init]",
+    "recipe[apache_zookeeper::service]"
+  ]
 }
