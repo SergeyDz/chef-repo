@@ -1,6 +1,22 @@
 {
   "name": "winrm",
+  "default_attributes": {
+    "virtualbox": {
+      "version": "5.0.14",
+      "url": "http://download.virtualbox.org/virtualbox/5.0.14/VirtualBox-5.0.14-105127-Win.exe"
+    }
+  },
+  "override_attributes": {
+    "virtualbox": {
+      "version": "5.0.14",
+      "url": "http://download.virtualbox.org/virtualbox/5.0.14/VirtualBox-5.0.14-105127-Win.exe"
+    }
+  },
   "run_list": [
-    "recipe[hostsfile::mesosphere]"
+    "recipe[hostsfile::mesosphere]",
+    "recipe[vagrant::windows]",
+    "recipe[virtualbox]",
+    "recipe[Notepadplus_2]",
+    "recipe[git::windows]"
   ]
 }

@@ -21,6 +21,7 @@ require 'pathname'
 
 module Opscode
   class OpenJDK
+
     attr_accessor :java_home, :jdk_version
 
     def initialize(node)
@@ -98,9 +99,9 @@ module Opscode
     def old_version?
       case @node['platform']
       when 'ubuntu'
-        Chef::VersionConstraint.new('< 11.0').include?(@node['platform_version'])
+        Chef::VersionConstraint.new("< 11.0").include?(@node['platform_version'])
       when 'debian'
-        Chef::VersionConstraint.new('< 7.0').include?(@node['platform_version'])
+        Chef::VersionConstraint.new("< 7.0").include?(@node['platform_version'])
       end
     end
   end
@@ -109,7 +110,7 @@ end
 class Chef
   class Recipe
     def valid_ibm_jdk_uri?(url)
-      url =~ ::URI::ABS_URI && %w(file http https).include?(::URI.parse(url).scheme)
+      url =~ ::URI::ABS_URI && %w[file http https].include?(::URI.parse(url).scheme)
     end
 
     def platform_requires_license_acceptance?

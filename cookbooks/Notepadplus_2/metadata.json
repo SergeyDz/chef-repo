@@ -1,0 +1,42 @@
+{
+  "name": "Notepadplus_2",
+  "description": "Installs/Configures Notepad++",
+  "long_description": "Description\n===========\n\nThis cookbook installs Notepad++ 6.8.6\n\nRequirements\n============\n\nPlatform\n--------\n\n* Windows Vista\n* Windows 7\n* Windows Server 2008 (R1, R2)\n* Windows 2003 (R1 / R2)\n* Windows XP\n\n\nAttributes\n==========\n\nUsage\n=====\n\nInclude the default recipe on a node's runlist to ensure that Notepad++ is installed\n",
+  "maintainer": "Akshara Technlogies",
+  "maintainer_email": "saidulu.alli@gmail.com",
+  "license": "All rights reserved",
+  "platforms": {
+    "windows": ">= 0.0.0"
+  },
+  "dependencies": {
+    "windows": ">= 0.0.0"
+  },
+  "recommendations": {
+
+  },
+  "suggestions": {
+
+  },
+  "conflicting": {
+
+  },
+  "providing": {
+
+  },
+  "replacing": {
+
+  },
+  "attributes": {
+
+  },
+  "groupings": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "1.0.4",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false
+}

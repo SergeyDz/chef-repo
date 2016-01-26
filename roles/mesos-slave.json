@@ -4,7 +4,9 @@
     "mesos": {
       "slave": {
         "flags": {
-          "master": "zk://10.1.0.224:2181,10.1.0.200:2181,10.1.1.49:2181/mesos"
+          "master": "zk://10.1.0.224:2181,10.1.0.200:2181,10.1.1.49:2181/mesos",
+          "containerizers": "docker,mesos",
+          "executor_registration_timeout": "5mins"
         }
       }
     }
