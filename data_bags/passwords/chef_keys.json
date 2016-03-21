@@ -1,0 +1,20 @@
+{
+  "id": "chef_keys",
+  "admins": [
+    "chef"
+  ],
+  "clients": [
+    "sdzyuban-mesos-02",
+    "sdzyuban-mesos-hp",
+    "sdzyuban-pc",
+    "sdzyuban-hp",
+    "sdzyuban-mesos-01"
+  ],
+  "search_query": "role:*",
+  "sdzyuban-mesos-02": "ZeIZWSASvvcv/NKp/qx3tTgmmmso7BnhSLbJfL1KZBFf3vowLrnEUTGKbxZw\n4fqMzGVZqCdmckS2p1sAgmM1I493Y/o+OIBzovEpN7EzHrD6VMLZpH3CF076\nQKHYbPBigH9PYTvEV5vjK53pwq6gnSlNcNEBJUADzcGGX1UweryB16dE19ix\nM8EUT/3XLFYRsj1CdFuqvfDPwXvOKphHNKB4zE8CC9Zxe+BJSaq2ZK1OC/Kb\n9JVHP3j/ymU0ks7ZXqSdC2EL8JcrNvv5cZdwuayUm4h5g0cAPbXiij7wCkT8\nsOkgJELBtyRh0e/YO/p+RlKkFeK9r75GUxmuX9q3Wg==\n",
+  "sdzyuban-mesos-hp": "E3vdAXaxCOLTcuUW/C090x17mIET3gl23TaVL9KsK57oyoLpVsFEgYStFEwl\n+FuHeLuDERkhhKOmBiMylGLTNmy7Md+JMpIXUEfvor7pm47Y4nmWnElN3xJi\nbMcFMeSr/qZDufb2s3ZbXo1g82eQ3bXwE3vNMVs774U16MGypXGSDmVJy+bE\n0i8AXZ5eQnQL3VucLEsztr9YPeqmkstyRBaov82ZV6frSSy2teZwzcIaWIWq\np9AIuRf22VTqSjMrOX09oWd3N3rex4gGEorLIMxhOytpGWw7S2Usl/RcATx1\nMkM0VeltnUldJaRfsLDla756dsVyQaioqXdAaSrrLA==\n",
+  "sdzyuban-pc": "vHAWhh2ka9Y9qP1CAQoTl0odQqmbxLu3PPx6tbXniSZv/xp46mzb66+/kLQG\nbwg6DAoVXXKzYC2+KQtQSAZnEPWIqTPxvjVRg2yENtsdMvP8nCrTRPDa5OF5\nCORnWzgWbsAM+OdWafcx/ag43YrKJ/RrdZKf84ipBFe6JUCT/82nZXa6T3+E\naL3cvOTKBHe7z8ybeN7SC1OeUUrZC3yFGgBPALAQB6xsZo7jVCFp3oBIQ0+I\nWCEKf2im/UCcbkftUMGUYhxvvqikXy8pY9u/JomBsO3+XMKYrmRiFGlKnQCQ\nnOGK8thmGREX4E2G5CvdhQeIsosk2WiMhftKO5cQpg==\n",
+  "sdzyuban-hp": "ciqGdoy4swN3s3VpXTDE3Ht3rYh4HNMoE0cX0a4flaMqd8H0GcP76Hef187+\nzd0mI8h67cGgp1e4NHyslUvK8zqQQ+naqRULKr2j/qySHzHzw8y3pB/KCMjE\nbBXywUdBxm+PCCH4k/pk4vNf7Jz1RkB7heeQ/S++HGtzIljYkjtjSd1SGDOs\nODaZco5sj2Gjw3CKbe0pcDaeQ54btcaJV/lm8kW94brBDpseuYC5rxKNIIE9\n5fw4JU7u6R46U7l2M977H+4uztcyK+JB5FtqZ6Q/aaJyOhJTvngyJLCKY9f4\nf8ZkgTRlB15yY7NpjmKKxXRGn3GTN99QdPgJ1Mmkog==\n",
+  "sdzyuban-mesos-01": "YMdKxC0YD+qSLVXpSpo+1OIxHWy0ziPesKESDaWPvdv7Zqfe1qzTa8cF9KUQ\nHxI19VPhppyRCM5CXPq5fdssF3Al+z6qqcTc1Z7r4m+v98VOuHNml3ak5MeK\nyYXCbN9eJsSYmgDmFTz4s6aiNUp+EzMMtsgprlp1IHM80XYHTfAZ+C/LaUaG\ngdd4LReTBISKNdC5AIGTrr6bUOeV8HjK9HdJ4nLJv9rP/yPAclg+HPG0mPT1\nzubgXbHDbjGfOODrw5UCKqztTv0DBpsLaTouoCC3dm940c/S/Tc6pRrlhun8\nc8rTSWK1T2th4hyyV5hqrPXByDFRrOthW3tDpsMA3w==\n",
+  "chef": "kr6DOyIA+NeFtGNGY8wngM+2ZX0JZKDS8HQNyGOI3ImnQF6Ux7w+/p+RzF2u\nQkUCz+tIUHxbZuRVjhOPrsPWYvBXBXldEZRVlWRuJffxDon73Rpsk/IB6ywZ\nVprWITWGgkaPyXHIA53UBE5R+alJlXU5qnVea9SkvD/PuImE4SM25o8uHSFq\np+5/O2ufcOSQCCh37SZ5K5LS+VOAiwDayThGd9V6YQ2sVaV2iOGyoE2/3qPM\nCBK5Y9RvDKdDUdVyDaK9RIalewGUtWgaTDWPolQa9J7NoFXdosGx0WMCt2oT\nx6M9mpLjWjEQehg1FyE/7Q9xYYYJ1069VdZF/YqR0g==\n"
+}

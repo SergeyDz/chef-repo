@@ -7,7 +7,6 @@
   },
   "run_list": [
     "recipe[firewall]",
-    "recipe[firewall::mesosphere]",
-    "recipe[firewall::docker]"
+    "recipe[firewall::mesosphere]"
   ]
 }

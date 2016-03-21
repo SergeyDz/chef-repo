@@ -1,0 +1,15 @@
+{
+  "id": "chef",
+  "username": {
+    "encrypted_data": "kyBcxCsge0mCbBZC0PRRBKikXI/WCEM4neybHU08Cdk=\n",
+    "iv": "kU2DxEeavUvR3ASa+TcxUg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "password": {
+    "encrypted_data": "QQ9lhlbgOowjuiN8mjZzZpRzu5SV7ZGlnwdAmG0YeSA=\n",
+    "iv": "ak9ct8FqRQ93YbecfrdKiw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

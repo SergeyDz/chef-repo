@@ -1,6 +1,10 @@
-# install components
+# install custom packages here
 
+package 'docker' do
+	package_name 'docker'
+	action :install
+end
 
-docker_service 'default' do
-  action [:create, :start]
+service 'docker' do
+    action :start
 end
