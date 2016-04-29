@@ -1,9 +1,0 @@
-{
-  "id": "b",
-  "foo": {
-    "encrypted_data": "0SPdv2IlTClpxBUqE+qhqZpyjlIyHWvnSq8mm+jTRUk=\n",
-    "iv": "wJDgZF7oanwXmbSgSes1DA==\n",
-    "version": 1,
-    "cipher": "aes-256-cbc"
-  }
-}

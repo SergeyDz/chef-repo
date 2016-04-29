@@ -1,0 +1,5 @@
+param([string]$user, [string]$password, [string]$command)
+$pass = ConvertTo-SecureString -AsPlainText $password -Force
+$cred = New-Object System.Management.Automation.PSCredential -ArgumentList $user, $pass
+invoke-command -Credential $cred -ComputerName . -ScriptBlock {param($command) Invoke-Expression "C:/chef/vagrant.$command.ps1" } -ArgumentList $command -Authentication Credssp
+

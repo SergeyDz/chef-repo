@@ -1,9 +1,0 @@
-{
-  "id": "bar",
-  "foo": {
-    "encrypted_data": "XCWJ2xJrqhQ36Sac89rOq6lDrPd+WK+c4pwjKIpJvvY=\n",
-    "iv": "pIyVT6CHuyFaWJvyhVuHmQ==\n",
-    "version": 1,
-    "cipher": "aes-256-cbc"
-  }
-}

@@ -1,0 +1,6 @@
+{
+  "name": "hostfile",
+  "run_list": [
+    "recipe[hostsfile::mesosphere]"
+  ]
+}

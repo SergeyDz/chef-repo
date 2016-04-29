@@ -1,0 +1,10 @@
+# This file generate specific ps1 script making into account local path to vagrant file
+
+$folder = "<%= node['vagrant']['local']['path'] %>"
+Push-Location $folder
+
+<% @commands.each do |command| -%>
+<%= command %>
+<% end -%>
+
+Pop-Location

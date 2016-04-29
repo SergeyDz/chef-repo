@@ -1,0 +1,8 @@
+{
+  "name": "debug",
+  "description": "Debugging entry point",
+  "run_list": [
+    "recipe[windows-vagrant]",
+    "recipe[windows-vagrant::vagrant.start]"
+  ]
+}

@@ -31,6 +31,17 @@ firewall_rule 'ssh' do
     command :allow
 end
 
+firewall_rule 'cassandra' do
+    port [31000-32000,7000-7001,7199-7199,9042-9042,9160-9160] 
+    source '0.0.0.0/0'
+    command :allow 
+end
+
+firewall_rule 'kafka' do
+    port 7007
+    source '0.0.0.0/0'
+    comand :allow
+end
 
 firewall 'default' do
     action [:save, :restart]

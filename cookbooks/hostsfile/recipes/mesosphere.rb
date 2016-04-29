@@ -1,3 +1,4 @@
+
 hostsfile_entry '10.1.0.178' do
   hostname  'sdzyuban-mesos-01'
   action    :create_if_missing

@@ -1,0 +1,1 @@
+default['vagrant']['local']['path'] = "c:/VM/VirtualBox/Marathon"

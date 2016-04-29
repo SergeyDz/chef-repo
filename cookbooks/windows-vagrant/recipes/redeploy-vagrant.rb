@@ -15,7 +15,8 @@ Chef::Log.info("Inline username: #{user}")
 powershell "vagrant" do
   code <<-EOH
     $stream = [System.IO.StreamWriter] "c:/chef/vagrant.ps1"
-    $stream.WriteLine("Stop-Process -processname VBox*");
+    $stream.WriteLine("vagrant halt")
+    $stream.WriteLine("Stop-Process -processname VBox*")
     $stream.WriteLine("vagrant destroy --force")
     $stream.WriteLine("vagrant up")
     $stream.close()
