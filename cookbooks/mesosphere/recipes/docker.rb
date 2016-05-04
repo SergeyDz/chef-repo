@@ -5,6 +5,11 @@ package 'docker' do
 	action :install
 end
 
+file '/etc/default/docker' do
+    content 'iptables=false'
+    mode '777'
+end
+
 service 'docker' do
     action :start
 end

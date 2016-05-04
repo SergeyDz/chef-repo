@@ -4,23 +4,13 @@
     "chef"
   ],
   "clients": [
-    "sdzyuban-mesos-hp",
-    "kiev-gtm-pc",
-    "sdzyuban-hp",
-    "sdzyuban-pc",
-    "sdzyuban-mesos-01",
-    "sdzyuban-mesos-02",
     "conf-laptop",
-    "sdzyuban-dell"
+    "sdzyuban-hp",
+    "sdzyuban-pc"
   ],
   "search_query": "role:*",
-  "sdzyuban-mesos-hp": "oyUQ19KhQ1VuSGyyj1BQhjW2FOl1qaNLYInOin84QlNyrBuHxjlQHrHCdA52\ndHTWbiHA+pSS+abrhipdyYfRx97Azt7UauVlSIKJ7ABC+M/4wUi1C5aIpebQ\ngwjDMbP34Mop/xT13v1/R5rxsxA5Ej72qupGJViK2GkBK7nyVfrvuaWzg8Ss\nPdigUB6/Cn9hjZsGKzVoYnyzy7IltipO5/vM6sYaSFkjh8pF0DsMfteCEPDO\noAbdz4hGwkWx3CHOP8p/mz6YLqMGKrrHGktApgHKQdI4UQvV7cEb+79cL7av\nZbz1wmNc8HCAcBiKeTjs6w7BANgzdsyu/wizWzGERw==\n",
-  "kiev-gtm-pc": "3mYmuW6YVHhUUScgaNmXL4PLAi+Aa9EWchynhYZ5hBI2hf/jVtPNe5Cemm7v\n4ENZ2TeCRUqglaaH3UeJcAWq7jRZe+grkg+MDIqHccEySf87lL67kgFQyaE5\nSWwIxpamYO316HzSljdEYnE7/LYIYC8476R/+Tz4zIRtUWRktai4hhMRD17D\nyxhxXu5B6vGypA1eX02mF8zFuSNndSwt+r3tzSehG+w+ylNuWyhAlxf4F/ao\nend6jxru6vECGYDEY5mzH+J2+etqdADpgkCbMndYbiyY95KO696b8PGJWPKt\n+lwpbLXMNj+7hmjI7Ge+OzlTkAK29CZJRMlX1AIzlQ==\n",
-  "sdzyuban-hp": "D064enZ51k7ZAk8zw5H8y9rup0rI33DIlLnqZWQhRJuVs4wy4t52qV15aE6Y\nBZFCyC67EOppSAlKhW/pPkYhYeDXFa0/Y+EUkbav/RuZYUHOM1pnSYRxUmF1\nycO0yEaFmGvAQAXxV63V0Hwwq0x+MUt6k9rLiBZjiXNLTFgGGvaN1yvAnBaJ\nC1JYaAIJNhVwhCfZUE7HjqL85oqaHR5lwqd4shPMxrmmrRfvkcoXDdXLGjFn\n5DuY+AtHdZp4cCBm43kbh5rMDESjTeduTHaJFJ3OWXSYzrjm2LgBMgmNDPZg\n4we9siwqRv+u7PAdZWdiN1YyhW8XgsC4uT9LczfyqA==\n",
-  "chef": "FXIe2eM2+LNXlTC7TjjGs5kJYzGyKFFRiOvbEIB2plsyEsmuuM7wflXcAOkg\nQPA5lBO1gD/3aSpJGVQMa5SIIRvwHMFPyWGCHbD+Ub5rCcXS+fffWpEpGYNi\nlkFPexFF0Yc8tDuN+RGKtT6zua/4nNLvUvWwqMc4xEcQ4BRqbjMirQsjohMM\nt4DAsgzJpjRN/4Q+W7VZhivUnIZetUf/yBTrheFtq0n8YDAF4mxAW65wwlMX\n0hz8qJFkY92KFLvI1pw41/cVX4kDbMZMOh9l59gxQXRgL8ErkL1azxxXVL0z\nBsQN8U6J4QNFK9FAQgfJJsxtdU1Uz16GoPiKdYdavg==\n",
-  "sdzyuban-pc": "QamW5s2eQ3vLu1QQrsV94ytDSVfgSl6XI1VW0IvlOIJ+0GIQjnYdREWnZ5jj\n4Hy5AB1mLiUGwfUWyyeJHVGGDZzEDQpJk7LpeAvAjeh0YOyDrdnGj9z3mF0t\nYhRa3+hAyh0t5j8TLX+iF0NulDpUGd4uGhQfIOI/VS8PQhkh5b/vgAyXgQp9\n54/EAdoYZS0QJaVxUKzbbCAHwUf57aemBezHFAeMqhStd30zIjmSct2o6ED4\nPLIeRLWoxBJ2SXwqIvBE+xnJgI3FJW35fw06pY3Kua6f1RkL+bJhn8Ak4cDx\n075GKB8CqhnI8F6O7gvWc+V3XQX0pkD9tC8admuDPw==\n",
-  "sdzyuban-mesos-01": "UmoswwqvjVQmAQl/ac74dctrKzipf4ypwDpzaJh2uEJXwcUotsyU5lGMBPJv\n502ng6y4sJyferSwUEZpLQZy1RDbv+JnaB/qdWj9x2ODgUDdRo6jefwr8iH8\nKLDl0REovARhruVHyeA4pMjcdqC3xPEXMFYUyRq8w7j7WCPCjVMjdJYxsjw/\nRppaS5w+onoLeA99yj3AaTqG/h800YnJsGQ9kNn1StuRyqt/xtKp1va/74fH\ngIt1paEz8pIlWirBjnjfI73GjzmGY06/SyzpDJy0g9Xjy2Ol9N1V/cligjOb\nsO55V3j2mNHdKJBf4GPEiVNhPmZj0ClgiyPOJ3inDQ==\n",
-  "sdzyuban-mesos-02": "AvmDpnfXZa5G/2HhztCEjikyV5dI6nBFEdK1/mChtQVj4HnXo1R3olMGa0mQ\n72yy2Gi6m2tfe5OF7KL/f1aqt2t6Z8lYcVqh3ZF4LpKCifXZcD7tLUEpt9+S\nk9ToovnHKf895ObryHwBqoDkJL/9/CqE01Nzcmk4AqqulAob4TDbcoSdQFa+\nkCjE6m8HeeRhjXx34p9BoN5O1YXOibYKnqG/bfadKa+qdW5xJSqF5C9leAFe\nCOCfxefYAnePAa3sBwLTvL6cauMBauNDgimjnYxDYMEEYJe2XMKV0e8gVyTv\nmUrhPeouoz25GfOee2OPF1pLSXmdkAXMNHJ8p+JIeg==\n",
-  "conf-laptop": "Iov7Otaep1o1vqsd7TJ5IywOHNN1X+big5p9/BTM8kpg7JJUucZJkGAk/Erf\nuw8IWa2LUE67GZ32wgQjvoN0Ro9vmI5HlHsFKbChXa2Cf4aqtkrF+hSedtdR\nC37o87bknIDuLPkl8ew+S1Uh3tjz4/2PKKvzNkQ1Vp4fXLLXto71VVrBDlGD\n9tGgQcD8x7utp1ddXppP+Lx8AHTB7IHeUNzMnQUH8ViQGd6gokTrNUVVhdVZ\nIqeqz3hIA4vi9Dgk+7ONtoIKMhoEZpgD1SVU3A/Pl2Q34Bo2q+QuAyFbDspa\naXH1/n5MmeA4+BogfFuFha9QtXkUimHw3ngwCsYMkQ==\n",
-  "sdzyuban-dell": "Bfg/8VGXj49IhodhrwMjtiVFGeZDSl7j7C1ApUtnf8Owu2z3LDwm6bxMYpDM\nr9BGSYmS0YT4pyDCQx4x5wQM4t0SJCwIo1sonxH8+sYbzhpZcylEFyfsJTV/\nqvRD+moxI3noCG2oCQ9nOKHfijAIMmBSOZ8dPAESO8ev6wzCiywtXDA4PzRd\nJzZBQTPmB4gRgFwFbUkXhy0lHXmRnYmAMb6TssJBbwoi0TV/2BonikhCAu8C\nDMUo1n2HLoBgzAvoJOClZpO5DHCH383H1EylbjDa459+Q6b0wtdBbT97sdR0\nBZVEIGjRcAHejTugdlN/40dj/4/5wEMkxueR1AFKsQ==\n"
+  "conf-laptop": "FNPy+18rR3hK47l8riQnBWsrEBZVGn6Vgiw9XtEs5M6NJv8elqhj+JiWNRx4\nxi1N9iTrWpDFgA2jXUGanCF9B1YhQJaQSqWLNXBrQJtzxub9hGq2kAJ+YQee\ncnTf2RmU8s+WdHQDWG9mZPgFsIj5atTWErMoZ55ywI5RBga0FzoANaaVJlSt\ndwz5R9ecjf2EjKERk/nNyP+N25bXQCFnstUsz8hlP1/yNB/KbFfWM91wtNfs\nL7ewFoaqx6InFQOGaeONyTCWw2qPfXpjoMkznRW61PD06y23qMNY6XUBdrTu\nxb9QRVPrztUssooefWn/ZPnHAoieXtIddfgKGzddRQ==\n",
+  "chef": "E63epSw/o/M2RDwd9NDLThJ7HUHTRdySiMWSYrfZyfCAkPb2keFK4X57z+tR\n+ubtFxKK54zgC46gxDN5kLhXZ69ZiAuxe2/+Fu8NPaobK9mAWm+F3LyvPejk\nUXVYO+3LVYpbegsRJrWyQJcQ3r/zvpT+/txZbASTsOtByS2ZpWNNOGBkkuHL\nsjEKMwH8E9lD/CADYVNf2qsDDOHD3rfcicBt38YKTppthtg4tYxXokCtaNEF\nzo7ykJC5egDiLczvEjMqeJRf2xMGYFXRRricNc9mutqvooDs/PKBT/DH0mBQ\nD0592fuOLG7Q8Irj/J2uW4a54s0+Crpid26oT7ycoA==\n",
+  "sdzyuban-hp": "C+9IoDAExhtqCSoj80cn8BkJlhm0CprsCi/Qpq8tVE9kWCEMPh1jagemlZtC\nM/bOHDgETXGqP17I8xWVIASrI7KGoqkyDYyydb8s3iMkgT+x+3DBKSkd485C\nyKQJGVLSZDYZ1bLCw00XLdeCHkURL0aFEvSkHupOnqjRrisIa8zKvRM4Uakf\nAevQe+i4pZOZby3jWBpbCSqIt7cb+gl6GA6SPtURZZsT/s7x+LRj9c/LCNCk\nJYkaZBFLHWa9F8KKqg856mwPFd2sl4NMpK0fwMbGt/anlfHK5SX8bXoBGYu+\nVpzGd9farwek6LswoUgLjEpJ8BqUoooVrTcubs2vrQ==\n",
+  "sdzyuban-pc": "ENKsik9+f3sPZLebx6QiGH6pcMj16c2UdWCKzOvdtWxqcsivkrAvbak+ekQF\nVv1bEkNghI1B1Ml7bkxEetJJdN4HhJroJ6LlOUIKv5cocTMymRfTf+Ealmls\np5DwBqCpj5rI302sVrTaZrW4wdTyHtXXu9Jzr/GCverqpvll5ee5BXYLmzws\njQ11gQMwNfgc0P1QIBOi1ye+J99l6wpuEYCAGicscNp3TNsrJd68R5jeAByP\nGQgGomuDGC89nUk09PulVx0h4hSJCbCdI03YZttTAOCqbcaEB+z61kpKhGj2\nOHLvoAS6ZNMZ3eGOnbOuLvastheOlBDSaCFc4pE0Og==\n"
 }
