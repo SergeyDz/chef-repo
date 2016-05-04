@@ -40,7 +40,7 @@ end
 firewall_rule 'kafka' do
     port 7007
     source '0.0.0.0/0'
-    comand :allow
+    command :allow
 end
 
 firewall 'default' do
