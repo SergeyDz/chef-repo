@@ -24,21 +24,32 @@ firewall_rule 'mesos' do
 	command :allow
 end
 
-
 firewall_rule 'ssh' do
     port 22 
     source '0.0.0.0/0'
     command :allow
 end
 
-firewall_rule 'cassandra' do
-    port [31000-32000,7000-7001,7199-7199,9042-9042,9160-9160] 
-    source '0.0.0.0/0'
-    command :allow 
-end
-
 firewall_rule 'kafka' do
     port 7007
+    source '0.0.0.0/0'
+    command :allow
+end
+
+firewall_rule 'rabbbit_mq' do
+    port [5672, 15672]
+    source '0.0.0.0/0'
+    command :allow
+end
+
+firewall_rule 'consul' do
+    port [4000, 8500]
+    source '0.0.0.0/0'
+    command :allow
+end
+
+firewall_rule 'elk' do
+    port [5000, 5061, 9200, 9300]
     source '0.0.0.0/0'
     command :allow
 end
