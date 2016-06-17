@@ -1,15 +1,20 @@
+begin
+  require 'chef/resource'
+rescue LoadError; end
+
 require 'chef_compat/copied_from_chef'
 class Chef
 module ::ChefCompat
 module CopiedFromChef
-require 'chef_compat/copied_from_chef/chef/resource/action_class'
-require 'chef_compat/copied_from_chef/chef/provider'
-require 'chef_compat/copied_from_chef/chef/mixin/properties'
+require "chef_compat/copied_from_chef/chef/resource/action_class"
+require "chef_compat/copied_from_chef/chef/provider"
+require "chef_compat/copied_from_chef/chef/mixin/properties"
+require "chef_compat/copied_from_chef/chef/mixin/powershell_out"
 class Chef < (defined?(::Chef) ? ::Chef : Object)
   class Resource < (defined?(::Chef::Resource) ? ::Chef::Resource : Object)
     include Chef::Mixin::Properties
-    property :name, String, coerce: proc { |v| v.is_a?(Array) ? v.join(', ') : v.to_s }, desired_state: false
-    def initialize(name, run_context=nil)
+    property :name, String, coerce: proc { |v| v.is_a?(Array) ? v.join(", ") : v.to_s }, desired_state: false
+    def initialize(name, run_context = nil)
 super if defined?(::Chef::Resource)
       name(name) unless name.nil?
       @run_context = run_context
@@ -38,7 +43,7 @@ super if defined?(::Chef::Resource)
       @elapsed_time = 0
       @sensitive = false
     end
-    def action(arg=nil)
+    def action(arg = nil)
       if arg
         arg = Array(arg).map(&:to_sym)
         arg.each do |action|
@@ -89,13 +94,13 @@ super if defined?(::Chef::Resource)
       end
       safe_ivars = instance_variables.map { |ivar| ivar.to_sym } - FORBIDDEN_IVARS
       safe_ivars.each do |iv|
-        key = iv.to_s.sub(/^@/,'').to_sym
+        key = iv.to_s.sub(/^@/, "").to_sym
         next if result.has_key?(key)
         result[key] = instance_variable_get(iv)
       end
       result
     end
-    def self.identity_property(name=nil)
+    def self.identity_property(name = nil)
       result = identity_properties(*Array(name))
       if result.size > 1
         raise Chef::Exceptions::MultipleIdentityError, "identity_property cannot be called on an object with more than one identity property (#{result.map { |r| r.name }.join(", ")})."
@@ -103,7 +108,7 @@ super if defined?(::Chef::Resource)
       result.first
     end
     attr_accessor :allowed_actions
-    def allowed_actions(value=NOT_PASSED)
+    def allowed_actions(value = NOT_PASSED)
       if value != NOT_PASSED
         self.allowed_actions = value
       end
@@ -113,7 +118,7 @@ super if defined?(::Chef::Resource)
       @resource_name || self.class.resource_name
     end
     def self.use_automatic_resource_name
-      automatic_name = convert_to_snake_case(self.name.split('::')[-1])
+      automatic_name = convert_to_snake_case(self.name.split("::")[-1])
       resource_name automatic_name
     end
     def self.allowed_actions(*actions)
@@ -128,7 +133,7 @@ super if defined?(::Chef::Resource)
     def self.allowed_actions=(value)
       @allowed_actions = value.uniq
     end
-    def self.default_action(action_name=NOT_PASSED)
+    def self.default_action(action_name = NOT_PASSED)
       unless action_name.equal?(NOT_PASSED)
         @default_action = Array(action_name).map(&:to_sym)
         self.allowed_actions |= @default_action
@@ -168,17 +173,17 @@ super if defined?(::Chef::Resource)
     end
     def self.declare_action_class(&block)
       @action_class ||= begin
-        if superclass.respond_to?(:action_class)
-          base_provider = superclass.action_class
-        end
-        base_provider ||= Chef::Provider
+                          if superclass.respond_to?(:action_class)
+                            base_provider = superclass.action_class
+                          end
+                          base_provider ||= Chef::Provider
 
-        resource_class = self
-        Class.new(base_provider) do
-          include ActionClass
-          self.resource_class = resource_class
-        end
-      end
+                          resource_class = self
+                          Class.new(base_provider) do
+                            include ActionClass
+                            self.resource_class = resource_class
+                          end
+                        end
       @action_class.class_eval(&block) if block
       @action_class
     end

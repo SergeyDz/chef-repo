@@ -1,10 +1,14 @@
+begin
+  require 'chef/resource/action_class'
+rescue LoadError; end
+
 require 'chef_compat/copied_from_chef'
 class Chef
 module ::ChefCompat
 module CopiedFromChef
 #
 # Author:: John Keiser (<jkeiser@chef.io)
-# Copyright:: Copyright (c) 2015 Opscode, Inc.
+# Copyright:: Copyright 2015-2016, Chef Software Inc.
 # License:: Apache License, Version 2.0
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,11 +24,14 @@ module CopiedFromChef
 # limitations under the License.
 #
 
+require "chef_compat/copied_from_chef/chef/dsl/recipe"
 
 class Chef < (defined?(::Chef) ? ::Chef : Object)
   class Resource < (defined?(::Chef::Resource) ? ::Chef::Resource : Object)
     module ActionClass
       CopiedFromChef.extend_chef_module(::Chef::Resource::ActionClass, self) if defined?(::Chef::Resource::ActionClass)
+      include Chef::DSL::Recipe
+
       def to_s
         "#{new_resource || "<no resource>"} action #{action ? action.inspect : "<no action>"}"
       end
@@ -40,7 +47,7 @@ class Chef < (defined?(::Chef) ? ::Chef : Object)
           # We clear desired state in the copy, because it is supposed to be actual state.
           # We keep identity properties and non-desired-state, which are assumed to be
           # "control" values like `recurse: true`
-          current_resource.class.properties.each do |name,property|
+          current_resource.class.properties.each do |name, property|
             if property.desired_state? && !property.identity? && !property.name_property?
               property.reset(current_resource)
             end
