@@ -4,13 +4,11 @@
     "chef"
   ],
   "clients": [
-    "sdzyuban-hp",
     "sdzyuban-pc",
     "Conf-laptop"
   ],
   "search_query": "role:*",
-  "chef": "Lh7zg+9ym/mr2w5evsKQXDj/x+2BzVLL6F0mbOyTOYzbiajShpo+UcjZAIPg\nPkbSfn2IzpmMQ5xhMDBpaNwBbDz+uM87u43KVh8vEaXDbP4Bf44oCk81iRq9\nNODqRc+dbP5BzZnf2q5w+Y5IyR6Dw3aUiI0Fjgs8/vCQmPjE5/OsLKx9soKJ\nxFMGVcRfXsfEx4d6oTo+hNPy4n0d3E75N132MUi9l7ddVIFCHihv+2AhvP1n\nPCX40bj3CNZle3gTBZUuR8cYYnauGmNcxJ3N9zoMkofcLLMg2ri+b5Ef2/w2\njLsG3d17EXItX0oaA/ZZNSEaQV7Il5dadwME90dMBQ==\n",
-  "sdzyuban-hp": "aFr6RPmaepQkAd+2yX+b1wPHy0SiOMpCjf5fAUHDlKVRaK4XUTSaCqLXmH/a\nuUS22iGqGi+KHkYSWDZwf74EyHiCt68AmrPOlAw+bJZXQFp0zRVOrsoXcZtd\naswkqzfBfwNvr919SrvtNWVRxBM8o6+TJWPKvtOQYol/KbYWkWmnbEWls7Te\nV8mmkMzAmShqIxwKLO9WO3P3+4Pq/fk1DJSgxsN/74P973ExqdZsSqGFNI2e\nkiKHO9e5jhHnjhFdhRR7m22HctoHcXW52o888u2QS0mB9o5toyHsXy255n+Y\nZkcMHzjXUFYky95cmgz47XxTRu/GS6qHsFxyMlH1Rw==\n",
-  "sdzyuban-pc": "vBNEt6TmBsGF+Ka0ltXQoVaWrjB5QZn+i22TnM+L4ps1w9n/I6obc5tz9erl\nN/KHN0vCSnSyRrw3zc6E/hLok9eGkQtV4PMVk8z106zlrPoOSJ/lWCN2j+CB\neYLS7BXYHNC1z17GQY7dxPU433sZGZkn1ni3n5AUyDTFgXUHq9MNHGAPnpR4\nSV88w4de7Zh3eC9P0iprb356OK9ce2teBurnO3YxFhzUXXxwvRxhB2qZrtqG\nPgyVmiabsbnIZU2iIAn4gJveYtoGA5G6sQCB5sAUPX0EFK0HKq7/AdLOS6uR\nZT6LXAHAtlRAAE/Vh5ECXSbPY96QyeR7EAHJyFrcdg==\n",
-  "Conf-laptop": "k+USApAAqK73GhIDWsX9s4MOR3emZvB6BA4NyZMQnx5RSHeP+t5wsA3andam\nqQ/E5vFLQP4KiYvE8Vrh9438R8esamxmzc81bf7/UhnSydwJuKpzdt6H4+B0\nSl85MDSeShlzZoAmqLHB0jDKw7/J3cFiVC/OJVrK8ihvh9Z65MqVRXZJKoAr\nLcjEcOwV1JNsgX1Wx4HRi199Jaw6OMaz3+ZLIDFGqeHKYvS9lnrDlRFaEmSP\n3XlWvDfxp0xriQivlm+lVSIaNdYIo/nD+o/6tidAXOEyQybbtF5En1Z4v3YG\nMtF21BYgRYBiB8Jf8BW5mBEH1DIzwEomrurY20q8yA==\n"
+  "chef": "kB5XI0HxfQlRnxIMdBFT3O75gKO8rXLBjBwwBASa2UMM2tvtCf/dx1sSoBW4\nzo9O0tHHZjtaTJjqEwOQh5tjRzOmESWvEtksogm5E84NVwdzjc3n5LlN54gk\nEQRZDQm9MAfqgABUi/wThWg5tl/pD7bjvwW/G1ejMWTFWjYhR3whoZ4wZtS7\n46PZOsyypvD0gLEfAJZ4UwB0N8JaCHOjoNvfHg+kS3E2/3is1XEhVSEjGy2a\nkrOyoifjG3lREsp98Yzi0vSeE1ofN/WHTql3CN1NXjOPKix1mCD2TC/NVZcN\nZ/gsGi9CozqKtrKYbCaANwctxerXH7aEOtaXGYke9w==\n",
+  "sdzyuban-pc": "UyaCmYawIiAEVzQ81d3A3I7UfC+f5+656uswADvLPmhrRN/hgB8xuMVco264\njFevvkNBh8XUuMR2Y3Ca4lGWOrG/M8Mvk4mXZ9ulnDkyWxkJccBbJNg+T5Od\nUKxvmrzsXQl5bFadefpRawXC4CkC4+IQ3ZIk/fGjr8y2EK/5XRrc4rbX5WV4\nd9or9ZKU7Az9eL686lZofgMxgF4ZYYCt7rCWiDhKuD0hu/T47qNDQejDYTTy\nEbSRUjuWJUCNySFSVJXXiKGAgLqiKyM11c4a3Ck5fCsgrUHN1qKMu3/ln2O/\nlBpYfcjbwy1q9VUtCtzb2bMWaNo4n4PqHsVQfY7vXw==\n",
+  "Conf-laptop": "JnEXLpIyw1bPojEgw81b14aYfLvLoye7y6a3yaIYpMK51GthAtnyqv8pCC1U\nVcxWIl9UTXcR9IRcILi42NPouX+SCt/eDMejTT6gvbVgWTOx+5oie9u4bgGa\nwnsk11fVd7ycZD7xXC1XXh4Foe8u8Oxuyj2bYRH3Ew7AWZN4YSD9rjT7SdqC\n4xQ8uiJAn/PlGUkhEO7/YeDgpEcjIQXmKWVfddxySIrc/71ZttwnCHGs0iEJ\n211cs1lw/EkYjU0TqmxtJGcbc7qSCM5zohK4tAHvek4CmGwMncQ1FMV2IBuF\nuOWj0y8rrZMA0YEqnoIcb8QwTmeDqmZ4YPOTobR0jw==\n"
 }
