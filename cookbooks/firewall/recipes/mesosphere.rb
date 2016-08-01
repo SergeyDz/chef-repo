@@ -54,6 +54,27 @@ firewall_rule 'elk' do
     command :allow
 end
 
+firewall_rule 'hadoop' do 
+    port [8020,8030,8031,8032,8033]
+    source '0.0.0.0/0'
+    command :allow
+end
+
+firewall_rule 'hadoop2' do
+    port [8088,8090,8040,8042]
+    source '0.0.0.0/0'
+    command :allow
+end
+
+firewall_rule 'hadoop3' do
+    port [8188,8190]
+    source '0.0.0.0/0'
+    command :allow
+end
+
+
+
 firewall 'default' do
     action [:save, :restart]
 end
+
