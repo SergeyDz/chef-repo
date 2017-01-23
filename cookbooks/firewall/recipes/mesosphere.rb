@@ -31,7 +31,7 @@ firewall_rule 'ssh' do
 end
 
 firewall_rule 'kafka' do
-    port 7007
+    port [7007, 9092, 31000]
     source '0.0.0.0/0'
     command :allow
 end
@@ -61,18 +61,21 @@ firewall_rule 'hadoop' do
 end
 
 firewall_rule 'hadoop2' do
-    port [8088,8090,8040,8042]
+    port [8088,8089,8090,8040,8042]
     source '0.0.0.0/0'
     command :allow
 end
 
 firewall_rule 'hadoop3' do
-    port [8188,8190]
+    port [8188,8189,8190,9083,10020]
     source '0.0.0.0/0'
     command :allow
 end
 
-
+firewall_rule 'ipv4_icmp' do
+  protocol :'icmp'
+  command :allow
+end
 
 firewall 'default' do
     action [:save, :restart]

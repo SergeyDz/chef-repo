@@ -24,7 +24,7 @@ hostsfile_entry '10.1.0.77' do
 end
 
 hostsfile_entry '10.1.1.233' do
-  hostname  'sdzyuban-mesos-hp'
+  hostname  'sdzyuban-mesos-03'
   action    :create_if_missing
 end
 
@@ -42,3 +42,14 @@ hostsfile_entry '10.1.1.234' do
  hostname 'sdzyuban-mesos-04'
  action :create_if_missing
 end
+
+hostsfile_entry '10.1.1.235' do
+ hostname 'sdzyuban-mesos-05'
+ action :create_if_missing
+end
+
+hostsfile_entry '10.1.1.236' do
+ hostname 'sdzyuban-mesos-06'
+ action :create_if_missing
+end
+

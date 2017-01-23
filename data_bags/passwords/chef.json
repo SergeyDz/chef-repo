@@ -1,14 +1,14 @@
 {
   "id": "chef",
   "username": {
-    "encrypted_data": "3mzk6DmRzfv/C/vEQcOLN0H0mHoNn7TfpTZrFdCVOhI=\n",
-    "iv": "4Of2+oO1izAC3Zc1XNENYQ==\n",
+    "encrypted_data": "KxSRBkTUK10HWY8YIwFbpBjSKoWrPYBN2vXv1Rjywn4=\n",
+    "iv": "KrwD+5blVfO7DDS1W1pZ3A==\n",
     "version": 1,
     "cipher": "aes-256-cbc"
   },
   "password": {
-    "encrypted_data": "VYEx1TusV3wSOgOLU0Ri2tB1EyNQDlakrcidffvivKQ=\n",
-    "iv": "PcEpYuoCrz5RWBpBspDl9g==\n",
+    "encrypted_data": "HjLH1jtFqohWep6aC5E1stCSceTZKD0X7XSAwP7IUCA=\n",
+    "iv": "SwTzIjWHx0L3yQmFkdBCOQ==\n",
     "version": 1,
     "cipher": "aes-256-cbc"
   }
