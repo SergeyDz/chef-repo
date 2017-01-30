@@ -1,0 +1,7 @@
+{
+  "name": "vagrant-remove",
+  "run_list": [
+    "recipe[windows-vagrant::vagrant.stop]",
+    "recipe[windows-vagrant::vagrant.remove]"
+  ]
+}

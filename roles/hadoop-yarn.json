@@ -1,0 +1,12 @@
+{
+  "name": "hadoop-yarn",
+  "run_list": [
+    "recipe[hadoop::hadoop_yarn_nodemanager]",
+    "recipe[hadoop::hadoop_yarn_resourcemanager]",
+    "recipe[hadoop::hadoop_yarn_nodemanager_init]",
+    "recipe[hadoop::hadoop_yarn_resourcemanager_init]",
+    "recipe[hadoop::hadoop_mapreduce_historyserver]",
+    "recipe[hadoop::hadoop_mapreduce_jobtracker]",
+    "recipe[hadoop::hadoop_mapreduce_tasktracker]"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "vagrant-create",
+  "run_list": [
+    "recipe[windows-vagrant::vagrant.start]"
+  ]
+}

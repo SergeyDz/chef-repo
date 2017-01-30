@@ -1,0 +1,7 @@
+{
+  "name": "docker",
+  "description": "finalize docker setup",
+  "run_list": [
+    "recipe[mesosphere::docker_restart]"
+  ]
+}

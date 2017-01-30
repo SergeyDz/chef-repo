@@ -1,0 +1,19 @@
+{
+  "name": "hadoop-hdfs-namenode",
+  "override_attributes": {
+    "hadoop": {
+      "core_site": {
+        "fs.defaultFS": "hdfs://10.1.1.231"
+      },
+      "yarn_site": {
+        "yarn.resourcemanager.hostname": "10.1.1.231"
+      }
+    }
+  },
+  "run_list": [
+    "recipe[hadoop]",
+    "recipe[hadoop::hadoop_hdfs_datanode]",
+    "recipe[hadoop::hadoop_hdfs_namenode_init]",
+    "role[etc_environment]"
+  ]
+}

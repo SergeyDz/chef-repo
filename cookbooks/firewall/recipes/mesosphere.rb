@@ -13,13 +13,13 @@ firewall_rule 'marathon' do
 end
 
 firewall_rule 'zk' do
-	port [2181, 2888, 3888]
+	port [2181,2888,3888]
 	source '0.0.0.0/0'
 	command :allow
 end
 
 firewall_rule 'mesos' do
-	port [5050, 5051]
+	port [5050,5051]
 	source '0.0.0.0/0'
 	command :allow
 end
@@ -31,25 +31,25 @@ firewall_rule 'ssh' do
 end
 
 firewall_rule 'kafka' do
-    port [7007, 9092, 31000]
+    port [7007,9092,31000]
     source '0.0.0.0/0'
     command :allow
 end
 
 firewall_rule 'rabbbit_mq' do
-    port [5672, 15672]
+    port [5672,15672]
     source '0.0.0.0/0'
     command :allow
 end
 
 firewall_rule 'consul' do
-    port [4000, 8500]
+    port [4000,8500]
     source '0.0.0.0/0'
     command :allow
 end
 
 firewall_rule 'elk' do
-    port [5000, 5061, 9200, 9300]
+    port [5000,5061,9200,9300]
     source '0.0.0.0/0'
     command :allow
 end
@@ -68,6 +68,12 @@ end
 
 firewall_rule 'hadoop3' do
     port [8188,8189,8190,9083,10020]
+    source '0.0.0.0/0'
+    command :allow
+end
+
+firewall_rule 'cassandra' do
+    port [7000,7001,7199,9042,9160]
     source '0.0.0.0/0'
     command :allow
 end

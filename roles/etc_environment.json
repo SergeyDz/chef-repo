@@ -1,0 +1,11 @@
+{
+  "name": "etc_environment",
+  "default_attributes": {
+    "etc_environment": {
+      "HADOOP_USER_NAME": "hdfs"
+    }
+  },
+  "run_list": [
+    "recipe[etc_environment]"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "hadoop-hive",
+  "default_attributes": {
+    "hive": {
+      "hive_site": {
+        "hive.metastore.uris": "thrift://10.1.1.231:9083"
+      }
+    }
+  },
+  "run_list": [
+    "recipe[hadoop::hive]",
+    "recipe[hadoop::hive_server]",
+    "recipe[hadoop::hive_metastore]"
+  ]
+}

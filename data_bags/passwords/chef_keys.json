@@ -4,13 +4,13 @@
     "chef"
   ],
   "clients": [
-    "sdzyuban-pc",
-    "sdzyuban-mesos-05",
-    "sdzyuban-mesos-04"
+    "0483-pc",
+    "sdzyuban-mesos-04",
+    "sdzyuban-pc"
   ],
   "search_query": "role:*",
-  "chef": "OTxfWOJShbFqvngvsLohuDBnRP2oDes9Qg7Mw3xGhqZc3hQJl91l4Jk1VdZw\nPQubL/CUJ7X5trqqvvMtg0jHc9lJFzdJMD7z+MUKdOKXmtFba+QSwVzwUmth\n9G9n+IYmULrBCpCTT/wsR+6VDcW5ggv0ursOK8hLQnjuyneADPQdQyLaU94E\nRQIcEvOPUJNq7eZtRN/qTytaT46mQGsRmd3BDYodi/s5f2uxVxm7Mp6Mvs1/\nHfjbGxXvEWA6uYa6BluX2c/4AxvUTHu86YvSqg41uxA0kxtV/mpPAMFZ+t06\nT+2GUyZeK5EY+6zdxOdCQHOFq/2usQqiMg++TzwtvA==\n",
-  "sdzyuban-pc": "dfEC7FQkcLRYEpLP/fgJhrGsGJ8uI/ce9VaDTq2tyVxikA0YLW8mdaTTVb/3\nwBu7FUC3JCTYzeQpgfFG2jYn8bQyYspiOYJDQrbDXpy5kc7/IjHvPe3wCHsa\nqcGBJ9ZZJmDPBm1z0fnFwb7z08FJaTHPP4saDkbkqy565OmN46u4DB8pdxVy\nFk4y/anaYrL2K30eBUJeHIwhFL9qs/wHk7PcmsR0EzckNEY58FOZVqBj/4hv\nkJwi2DP8FRS+/bO0Wdk97oCxv9o4xXho841Cs9VUYnUy7DAw39ljoK0oiyGz\ncXIHKOOWF8NoG+piL3RdVFdmWW607D0oQqoavtLjXw==\n",
-  "sdzyuban-mesos-05": "lUbXOEb0DnLpbQEszucNFnT/5coqSIr5HXaI/j3u7wlJL6FRASL73oYDf9Um\nNehpf4bc1jQVUU4pUFfKFPFK0OrB+E5glHyUrcUX8fthNfMAHf3Ue9nliuzl\n5hww4UZZhQoknQZ5PIYqmy/JPUYnyzmLHa9Hp/P7lN95q6Y7F67fFF7W2TCz\nVh0fjFdWocIDGdOnVCwDvARZMRy7nsTW2Yi5ZvDkFI+cHGCYFSZ+/8qMPyKQ\nJDt0k2zcSS8lFPC3FzzAilekWKhiHNTnyxp/WpoXM4Mtg/LPw02lPUtREL0E\ndv8KN5wyd3CByY4WE1ImH/WrKKtna9bYU+4oVUraFQ==\n",
-  "sdzyuban-mesos-04": "KM5fYlYaRQgD1z/TxzQ8aOCG6e5rCML1Znc6wzw6rN4hlYu6AgYYirBPKPGe\n0oh56ZOdUSFLPqsh1cZhXpPl/vE37RoA+/gvx1Suw6cEn9YC0tb2rH42KM4k\numiaWy8xMa62TzdPqMWwm4AG95Q/KtkvELiUOG8SJTT4ScaYvCVmNJuSKkvQ\n8YmOIY4dp6luqocP50bFdDnO2bEz572KJ4yWTQu+zMCEPjvTwaQ6L7UeE2tX\n4gKhYYS3gMX/5WnuZbGrh7qQBEzpdmmBu9Bs/J/AtRmCSnc9nRsV58cR4d6Q\nMAT7Br60AkVpkRUJYm/ij7g9ICe02Mn4sN9SQQWoPw==\n"
+  "chef": "BxztlCdbYmuhEHQ9Me072c9R9jlo/m1scHzjtk/CVaLZv+ww5kUFij/sHXSg\nHzjQMbEsQ3wlYr8nZSc83UWzQhZptNeuwuhO5VmfTRP1HojHp6GOlw8m//7D\nv017YfFAcbIR4MXakuFfdD75HclFv7Z+wNqqhQwTJ1ptFGWAbwUQRt3zs9Pr\nORQsItKtviflLNHVsbEG953FLDMod221F1ehexyrVN6nyGbl+6dalQKrs3eh\nlPv3YMZC2Ufp3UKPLm4cyZ1rR1v9KTkxgvrEPQOdypLprqCaLk2peYIol5nZ\nSnMWnrGRbth31On1eawcKuPaK2Qgsc6JAp8qnuw3yw==\n",
+  "0483-pc": "X+AlwDiAB39wfSohHo5KdiQSpSw+Bg+Gy4YVpvIx0g4on4dGznh4I3G/KuVy\n9oFx3i/Em+8YVVPRcplImmKRpr9GUO8u6tcMEzY93I1DZ6W3IhQaqXsHaKjz\nTA53V7eIIhSVXrTVEeNd1rOpmAxG5WV1LdX1UtKd/ZdT/c48Jjkd6hVXX2Qi\nAiPuBmPXP+Zzt6PqfUU1s0GTthPzRj9J5CMNOWAd3jtkFwphn+i1PBfRTO60\nBKjTCivknhdgzq4Ry6R1l/KGVCvxlPPFIrapfY77R82/Eh/dB8g6griZlQw1\n0WsVuvk+cJYQPq/nW7jxKDDa8EmCdgenZRvygrKh/A==\n",
+  "sdzyuban-mesos-04": "AGdqYT1zHgP2ixhNHE3u7+7ENvy42if3k1bpgOYkjzJAV6b8KmH0DxoKgeFA\nJ6X9ooNgKcXGpqiPQBhMMRuILTv/ZOBqJ2CxtCobMK3X3+QqZ+MCTxbCyrpE\n767VHCv3GFsmwq0kgosP01hnNq9GMgSX4s+xHV6Fb+VHl0e3jd5mth8dovAQ\ns4/bP0NxtNUyUbiCAZVBQZ1Y3GMuPin0vOjBAMzxdi9IsTXd36GVX+UZgNXw\nanIwDLW3isHFTfKbBZi6EMNDog+uj5IuoBhX83wuh59dIDzO+o9VJi4LWCgY\nIMvy2VqgRfJdqesU5Zs5gtn2GTRxHK0p19JG9Q89Hw==\n",
+  "sdzyuban-pc": "fJCWbfspWWr/cF1y5NEUZ5Jrfc9U+fxp7vLPQ+JnKbtAbrD8Oaq271h0Ilgn\nBM6OizMpACr+Z4dzByYH2KJ49N7xGFeIvUUubwWTrokhUTwdFpddQW57M/3O\n7QXzeOqRIAFzQ0dKhI50HnavusPdTr3f1ZCBDsz146sLyurJ/CSwKbcM5y3T\nQUPzAqLDe2oEryMBuc4lABq08FNdoFEVODaBAna/iwJwIOto+h/bFlpaY9Cw\nirf8vtsFzCqeybyQWSxS/shWkGrGQ9KLYvyfBVNeYBvdyBZUkyR2oOC4DU0G\n4Luk27TX8FNEE38YlUKbMJm7ijdWcjxAHapne2vmgQ==\n"
 }

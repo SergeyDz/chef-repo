@@ -1,0 +1,6 @@
+{
+  "name": "hadoop-pig",
+  "run_list": [
+    "recipe[hadoop::pig]"
+  ]
+}

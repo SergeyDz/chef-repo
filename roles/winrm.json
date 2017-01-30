@@ -16,8 +16,6 @@
     }
   },
   "run_list": [
-    "recipe[windows-vagrant]",
-    "recipe[windows-vagrant::vagrant.remove]",
-    "recipe[windows-vagrant::vagrant.start]"
+    "recipe[windows-vagrant]"
   ]
 }
