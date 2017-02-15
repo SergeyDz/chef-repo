@@ -78,6 +78,12 @@ firewall_rule 'cassandra' do
     command :allow
 end
 
+firewall_rule 'chronos' do
+    port [4400,8081]
+    source '0.0.0.0/0'
+    command :allow
+end
+
 firewall_rule 'ipv4_icmp' do
   protocol :'icmp'
   command :allow
