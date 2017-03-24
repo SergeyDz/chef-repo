@@ -2,7 +2,7 @@
 # Cookbook Name:: apt
 # Recipe:: cacher-client
 #
-# Copyright 2011-2016 Chef Software, Inc.
+# Copyright 2011-2013 Chef Software, Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -44,25 +44,25 @@ if node['apt']
   end
 end
 
-unless Chef::Config[:solo] || !servers.empty?
+unless Chef::Config[:solo] || servers.length > 0
   query = 'apt_caching_server:true'
   query += " AND chef_environment:#{node.chef_environment}" if node['apt']['cacher-client']['restrict_environment']
   Chef::Log.debug("apt::cacher-client searching for '#{query}'")
   servers += search(:node, query)
 end
 
-if !servers.empty?
+if servers.length > 0
   Chef::Log.info("apt-cacher-ng server found on #{servers[0]}.")
-  cacher_ipaddress = if servers[0]['apt']['cacher_interface']
-                       interface_ipaddress(servers[0], servers[0]['apt']['cacher_interface'])
-                     else
-                       servers[0].ipaddress
-                     end
+  if servers[0]['apt']['cacher_interface']
+    cacher_ipaddress = interface_ipaddress(servers[0], servers[0]['apt']['cacher_interface'])
+  else
+    cacher_ipaddress = servers[0].ipaddress
+  end
   t = template '/etc/apt/apt.conf.d/01proxy' do
     source '01proxy.erb'
     owner 'root'
     group 'root'
-    mode '0644'
+    mode 00644
     variables(
       proxy: cacher_ipaddress,
       port: servers[0]['apt']['cacher_port'],

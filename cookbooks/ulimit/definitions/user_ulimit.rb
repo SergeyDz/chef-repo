@@ -11,15 +11,7 @@
 
 define :user_ulimit, :filehandle_limit => nil, :process_limit => nil, :memory_limit => nil, :stack_soft_limit => nil, :stack_hard_limit => nil, :filename => nil do
 
-  filename = params[:filename]
-  unless params[:filename]
-   filename = case params[:name]
-              when "*"
-                "00_all_limits"
-              else
-                "#{params[:name]}_limits"
-              end
-  end
+  filename = params[:filename] || "#{params[:name]}_limits"
 
   template "/etc/security/limits.d/#{filename}.conf" do
     source "ulimit.erb"

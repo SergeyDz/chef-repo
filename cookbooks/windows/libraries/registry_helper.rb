@@ -271,7 +271,11 @@ module Windows
     end
 
     def user_hive?(hive)
-      hive == ::Win32::Registry::HKEY_USERS
+      if hive == ::Win32::Registry::HKEY_USERS
+        return true
+      else
+        return true
+      end
     end
 
     def get_reg_path_info(path)

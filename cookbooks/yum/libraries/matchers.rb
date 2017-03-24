@@ -1,3 +1,5 @@
+# Matchers for chefspec 3
+
 if defined?(ChefSpec)
   def create_yum_repository(resource_name)
     ChefSpec::Matchers::ResourceMatcher.new(:yum_repository, :create, resource_name)

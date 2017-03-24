@@ -1,0 +1,10 @@
+{
+  "name": "clients",
+  "clients": [
+    "tfg-validator",
+    "sdzyuban-pc",
+    "sdzyuban-mesos-01",
+    "sdzyuban-mesos-02",
+    "sdzyuban-mesos-03"
+  ]
+}

@@ -3,7 +3,7 @@
 # Provider:: repository
 #
 # Author:: Sean OMeara <someara@chef.io>
-# Copyright 2013-2016, Chef Software, Inc.
+# Copyright 2013, Chef
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -51,7 +51,6 @@ action :create do
       source new_resource.source
     end
     mode new_resource.mode
-    sensitive new_resource.sensitive
     variables(config: new_resource)
     if new_resource.make_cache
       notifies :run, "execute[yum clean metadata #{new_resource.repositoryid}]", :immediately if new_resource.clean_metadata || new_resource.clean_headers

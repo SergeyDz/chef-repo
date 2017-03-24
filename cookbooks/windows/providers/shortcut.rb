@@ -17,7 +17,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-use_inline_resources if defined?(use_inline_resources)
 
 def load_current_resource
   require 'win32ole'
@@ -44,7 +43,7 @@ def compare_shortcut
   end
 end
 
-action :create do
+def action_create
   if compare_shortcut
     @link.TargetPath = @new_resource.target unless @new_resource.target.nil?
     @link.Arguments = @new_resource.arguments unless @new_resource.arguments.nil?

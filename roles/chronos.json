@@ -1,0 +1,15 @@
+{
+  "name": "chronos",
+  "override_attributes": {
+    "chronos": {
+      "zookeeper_server_list": [
+        "10.1.1.231",
+        "10.1.1.232",
+        "10.1.1.233"
+      ]
+    }
+  },
+  "run_list": [
+    "recipe[chronos]"
+  ]
+}
