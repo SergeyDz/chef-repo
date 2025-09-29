@@ -1,11 +1,11 @@
 source 'http://rubygems.org'
 
-gem 'chefspec'
+gem 'chefspec', '>= 4.6.0'
 gem 'rspec'
 gem 'rspec-core'
 gem 'rspec-expectations'
 gem 'rspec-mocks'
-gem 'chef'
+gem 'chef', '>= 12.14.60'
 gem 'foodcritic'
 gem 'rubocop'
 gem 'rake'
